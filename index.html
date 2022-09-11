@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asd</title>
+    <!-- icono de la pestaña   --> 
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+    <!-- estilos de css -->
+    <link rel="stylesheet" href="./css/normalize.css"/>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <!--header, seccion hero de la paguina-->
+    <header class=" hero">
+
+        <!--barra de navegacion-->
+        <nav class="nav container">
+            <!--logo-->
+            <div class="logo">
+                <h2 clas="nav_title">HTML, CSS y Javascript</h2>
+            </div>
+
+            <!--Menu-->
+            <ul class="nav_link nav_link--menu"> <!-- el nav_link--menu el mismo nav_link con un modificador-->
+                <li class="nav_items"><a class="nav_links" href="#">Inicio</a></li>
+                <li class="nav_items"><a class="nav_links" href="#"></a>Acerca de</li>
+                <li class="nav_items"><a class="nav_links" href="#"></a>Contacto</li>
+                <img src="./imagenes/close.svg" alt="cerrar" class="nav_close">
+            </ul>
+
+            <!--Imagen de menu-->
+            <div class="nav_menu">
+                <img class="nav_img" src="./imagenes/menu.svg" alt="menu">
+            </div>
+        </nav>
+
+        <!--Descripcion del hero-->
+        <section class="hero_container container">
+            <h1 clas="hero_title">Aprendiendo HTML, CSS y Javascript</h1>
+            <p class="hero_paragraph"><b>Elige aprender</b></p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+
+
+    <main>
+        <!-- seccion acerca de -->
+        <section class=" container about" id="acerca">
+            <h2 class="subtitle">Que estoy aprendiendo con esta paguina</h2>
+            <p class="about_paragraph">Lo necesario para el Frontend</p>
+
+            <div class="about_main">
+                <article class="about_icons">
+                    <img src="./imagenes/html.svg" class="about_icon">
+                    <h3 class="about_title">Html</h3>
+                    <p class="about_paragrah">HTML es parte fundamental de las normas web.</p>
+                </article>
+
+                <article class="about_icons">
+                    <img src="./imagenes/css.svg" class="about_icon">
+                    <h3 class="about_title">Css</h3>
+                    <p class="about_paragrah">CSS define la presentación del contenido de una pagina web.</p>
+                </article>
+
+                <article class="about_icons">
+                    <img src="./imagenes/js.svg" class="about_icon">
+                    <h3 class="about_title">Javascript</h3>
+                    <p class="about_paragrah">JavaScript la mayor parte de las aplicaciones web funcionan con este lenguaje.</p>
+                </article>
+            </div>
+
+            <!--knowledge-->
+            <section class="knowledge">
+                <div class="knowledge_container container">
+                    <div class="knowledge_text">
+                        <h2 class="subtitle">!dominando estas tecnologias! :)</h2>
+                        <p class="knowledge_paragraph">HTML, CSS y JavaScript son los tres lenguajes que están en el centro de crear aplicaciones web.</p>
+                    </div>
+
+                    <figure class="knowledge_picture">
+                        <img src="./imagenes/macbook.png" class="knowledge_img">
+                    </figure>
+                </div>
+            </section>
+
+
+        </section>
+
+        <!-- Seccion de los precios -->
+        <section class="price">
+            <h2 class="subtitle">Plan perfecto para aprender</h2>
+
+            <div class="price_table">
+                <div class="price_element">
+                    <p class="price_name">HyperText Markup Language</p>
+                    <h3 class="price_price">HTML</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Introduccion</p>
+                        <p class="price_features">Etiquetas</p>
+                        <p class="price_features">Listas y tablas</p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price_element price_element--best">
+                    <p class="price_name">JavaScript</p>
+                    <h3 class="price_price">JS</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Base de js</p>
+                        <p class="price_features">DOM</p>
+                        <p class="price_features">POO en js</p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+
+
+                <div class="price_element">
+                    <p class="price_name">cascading style sheets</p>
+                    <h3 class="price_price">CSS</h3>
+
+                    <div class="price_items">
+                        <p class="price_features">Basico de css</p>
+                        <p class="price_features">posicionamiento</p>
+                        <p class="price_features">Responsive</p>
+                    </div>
+
+                    <a href="#" class="price_cta">Empieza ahora</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- seccion de testimonios -->
+        <section class="testimony" >
+            <div class="testimony_container container" id="testimonio">
+                <img src="./imagenes/leftarrow.svg" class="testimony_arrow" id="before">
+
+                <section class="testimony_body testimony_body--show" data-id="1">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Tim Berners-Lee, <span class="testimony_course">propuso un nuevo sistema de "hipertexto"</span></h2>
+                        <p class="testimony_review">Timothy "Tim" John Berners-Lee, es un científico de la computación británico, conocido por ser el padre de la World Wide Web. Estableció la primera comunicación entre un cliente y un servidor usando el protocolo HTTP en diciembre de 1990.</p>
+                    </div>
+
+                    <figure class="testimony_picture">
+                        <img src="./imagenes/face.jpg" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="2">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es håkon wium lie, <span class="testimony_course"> pionero web noruego y un activista de estándares</span></h2>
+                        <p class="testimony_review">La propuesta CHSS fue realizada por Håkon Wium Lie y SSP fue propuesto por Bert Bos. Entre finales de 1994 y 1995 Lie y Bos se unieron para definir un nuevo lenguaje que tomaba lo mejor de cada propuesta y lo llamaron CSS (Cascading Style Sheets).</p>
+                    </div>
+
+                    <figure class="testimony_picture">
+                        <img src="./imagenes/face2.jpg" class="testimony_img">
+                    </figure>
+                </section>
+
+                <section class="testimony_body" data-id="3">
+                    <div class="testimony_texts">
+                        <h2 class="subtitle">Mi nombre es Brendan Eich, <span class="testimony_course">Brendan Eich es un programador estadounidense conocido por inventar el lenguaje de programación JavaScript,</span></h2>
+                        <p class="testimony_review">Cuando Netscape contrató a Brendan Eich en abril de 1995, se le dijo que tenía 10 días para crear y producir un prototipo funcional de un lenguaje de programación que se ejecutara en el navegador de Netscape. En aquel entonces, el ritmo de la innovación Web estaba creciendo</p>
+                    </div>
+
+                    <figure class="testimony_picture">
+                        <img src="./imagenes/face3.jpg" class="testimony_img">
+                    </figure>
+                </section>
+
+                <img src="./imagenes/rightarrow.svg" class="testimony_arrow" id="next">
+            </div>
+        </section>
+                
+        <!-- Seccion de preguntas -->
+        <section class="questions container">
+            <h2 class="subtitle">Preguntas frecuentes</h2>
+
+            <section class="questions_container">
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Qué es CSS?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets). Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se encarga del contenido básico de las páginas</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Por qué aprender estas tecnologias?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions__show">Si sabes html5 darás un uso semántico adecuado a etiquetas, con encontrarás todo el potencial en el uso de plantillas hijas. Personalizar el style.css de tus plantillas hijas no será un problema. Podrás gobernar otras tecnologias como wordpress. JavaScript es uno de los lenguajes más usados a nivel mundial</p>
+                    </div>
+                </article>
+
+                <article class="questions_padding">
+                    <div class="questions_answer">
+                        <h3 class="questions_title">¿Por qué empezar a aprender JavaScript?
+                            <span class="questions_arrow">
+                                <img src="./imagenes/arrow.svg" class="questions_img">
+                            </span>
+                        </h3>
+
+                        <p class="questions_show">Programar es (y seguirá siendo) una de las profesiones más demandadas de la industria.
+                            Esta habilidad te permitirá resolver problemas complejos, automatizar procesos y crear productos digitales que tengan amplio alcance.
+                            Todas las empresas, al final del día, involucran cierto grado de tecnología, por ello, personas que estén inmersas en este mundo son muy valiosas.</p>
+                    </div>
+                </article>
+
+            </section>
+
+        </section>
+    </main>
+
+
+
+    <!-- Secccion de footer -->
+    <footer class="footer">
+        <section class="footer_container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer_title">Aprendiendo HTML,CSS yJavascript</h2>
+
+                <ul class="nav_link nav_link--footer">
+                    <li class="nav_items"><a class="nav_links" href="#">Home</a></li>
+                    <li class="nav_items"><a class="nav_links" href="#acerca">Aprendiendo</a></li>
+                    <li class="nav_items"><a class="nav_links" href="#testimonio">Referentes</a></li>
+
+                </ul>
+            </nav>
+
+            <form class="footer_form">
+                <h2 class="footer_newsletter">Contacto</h2>
+                <div class="footer_inputs">
+                    <input type="email" class="footer__input" placeholder="Email">
+                    <input type="submit" class="footer_submit" value="Registrate">
+                </div>
+            </form>
+        </form>
+        </section>
+
+        <section class="footer_copy container">
+            <div class="footer_social">
+                <a href="https://github.com/Francisco-LP" target="_blank" class="footer_icons"><img src="./imagenes/githut.svg" class="footer_img"></a>
+                <a href="https://www.linkedin.com/in/francisco-lagos-648801203/" target="_blank" class="footer_icons"><img src="./imagenes/in.svg" class="footer_img"></a>
+                
+
+            </div>
+        </section>
+    </footer>
+
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+</html>
